@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+/*Main section*/  
+.both-parts{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(237, 236, 236, 0.553);
+    padding: 140px 180px 220px 180px;
+}
+
+.left-text-part{
+    flex: 50%;
+}
+
+.facebook-img{
+    width: 50%;
+}
+
+.left-text-part>div{
+    width: 65%;  
+}
+.left-text-para-part{
+    font-size: 30px;
+    margin-left: 30px;
+}
