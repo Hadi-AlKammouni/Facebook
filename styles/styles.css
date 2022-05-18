@@ -105,3 +105,44 @@
     text-align: center;
     padding-top: 30px;
 }
+
+/*Minor section*/
+.lang-list{
+    padding-top: 20px;
+    display: flex;
+    
+    justify-content: center;
+}
+.lang-list>li{
+    margin: 10px;
+    font-size: 14px;
+    list-style-type: none;
+}
+
+.lang-list > li > a{
+    color: grey;
+    text-decoration: none;
+}
+.lang-list a:hover{
+    text-decoration: underline;
+}
+.lang-botton{
+    background-color: rgb(217, 217, 217);
+    padding: 2px 10px;
+    cursor: pointer;
+    border: solid;
+    border-width: 1px;
+    border-color: gray;
+}
+
+.divider2 {
+        padding-bottom: 20px;
+    flex-direction: left;
+    border-top: 1px solid rgb(201, 197, 197);
+}
+
+.meta{
+    color: grey;
+    text-align: center; 
+    width: 50%; 
+}
