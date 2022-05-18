@@ -27,3 +27,81 @@
     font-size: 30px;
     margin-left: 30px;
 }
+
+.login-info{
+    flex: 50%;
+    flex-basis: 20%;
+}
+
+.details{
+    padding: 20px 20px;
+    border-radius: 10px;
+    background-color: white;
+    width: 100%;  
+}
+
+.input{
+    text-align: left ;
+    width: 100%;
+    border-style: solid;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.login{
+    background-color: rgb(32, 102, 253);
+    color: white;
+    width: 100%;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 10px ;
+    border: none;
+    cursor: pointer;
+}
+
+.forgotten-password{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+.forgotten-password>a{
+    color: rgb(32, 102, 253);
+    text-decoration: none;
+}
+
+.divider {
+    padding-bottom: 20px;
+    width: 100%;
+    border-top: 1px solid rgb(201, 197, 197);
+}
+
+.botton{
+    text-align: center;
+}
+
+.create-new-account{
+    background-color:  rgb(3, 189, 3);;
+    color: white;
+    width: fit-content;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.create-page{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.page a:hover{
+    text-decoration: underline;
+}
+
+.page{
+    text-align: center;
+    padding-top: 30px;
+}
